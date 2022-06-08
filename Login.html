@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        #caixa{
+
+            width: 300px;
+            border: 10px solid white;
+            background-color: lightslategray;
+            padding: 50px;
+            margin-left: 30%;
+            margin-top: 10%;
+            text-align: center;
+            flex-direction: center;
+            border-radius: 20px;
+        }
+
+        .input{
+            border-radius: 5px;
+            padding: 10px;
+        }
+
+        #body{
+            background-color: black;
+        }
+
+        .button-primary{
+            padding: 3%;
+            border-radius: 5px;
+        }
+
+    </style>
+    
+</head>
+<body id="body">
+    
+    <form>
+        <fieldset id="caixa">
+      
+          <input type="text" placeholder="Nome" id="nameField" class="input">
+          <br>
+          <br>
+          <input type="text" placeholder="Email" id="email" class="input">
+          <br>
+          <br>
+          <input type="number" placeholder="IMC" id="imc"class="input">
+          <br>
+          <br>
+    
+          <input class="button-primary" type="submit" value="Send">
+        </fieldset>
+      </form>
+
+    
+    
+</body>
+</html>
